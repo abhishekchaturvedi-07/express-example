@@ -1,6 +1,8 @@
 var express = require('express')
 var app = express()
+const port = 1234
 // console.log(app)
+//Installed Nodemon
 
 //To get the response
 app.get("/", (req, res) => {
@@ -11,6 +13,6 @@ app.get("/newpage", (req, res) => {
     res.send("Welcome to New Page");
 })
 //To listen the port
-app.listen("1234", () => {
-    console.log("Listening the port-1234")
+app.listen(port, () => {
+    console.log(`Listening the port- ${port}`)
 })
