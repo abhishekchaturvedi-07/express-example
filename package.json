@@ -1,0 +1,25 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "express-examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekchaturvedi-07/express-example.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekchaturvedi-07/express-example/issues"
+  },
+  "homepage": "https://github.com/abhishekchaturvedi-07/express-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
