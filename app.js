@@ -1,6 +1,8 @@
 var express = require('express')
 var app = express()
-const port = 1234
+const port = process.env.PORT || 1234
+const path = require('path')
+console.log('path- ', path.join(__dirname))
 // console.log(app)
 //Installed Nodemon
 
